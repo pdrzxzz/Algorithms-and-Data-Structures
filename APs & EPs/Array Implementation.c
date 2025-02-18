@@ -25,32 +25,6 @@ void count(Array *A, int it){
     }
 }
 
-1
-14
-insert 2
-insert 5
-insert 2
-insert 9
-count 2
-next
-remove
-count 2
-remove
-count 5
-next
-next
-remove
-count 1
-
-
-
-
-
-
-
-
-
-
 void insert(Array *A, int it){
     if (A->listSize >= A->maxSize) exit(1);
     int i = A->listSize;
@@ -91,7 +65,6 @@ int remove_el(Array *A){
 }
 
 void main(){
-
     int num_cases;
     scanf("%i", &num_cases);
     for(int i=0; i<num_cases; i++){ //for each case
